@@ -34,7 +34,7 @@ print(bool([]))
 print(bool({}))
 
 
-#functions can return a boolean value
+#functions can return a fals value
 class myclass():
     def __len__(self):
         return 0
@@ -42,3 +42,12 @@ class myclass():
 myobj =myclass()
 
 print(bool(myobj))
+
+
+#functions can return a boolean value
+
+def myFunction():
+    return True
+print(myFunction())
+
+
