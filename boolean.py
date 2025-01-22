@@ -20,3 +20,7 @@ print(bool(y))
 #to determine a certain data type
 print(isinstance(y, int))
 print(isinstance(x, int))
+
+bool("abc")
+bool(123)
+bool(["apple", "cherry", "banana"])
