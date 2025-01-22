@@ -32,3 +32,13 @@ print(bool(""))
 print(bool(()))
 print(bool([]))
 print(bool({}))
+
+
+#functions can return a boolean value
+class myclass():
+    def __len__(self):
+        return 0
+    
+myobj =myclass()
+
+print(bool(myobj))
