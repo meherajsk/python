@@ -116,3 +116,23 @@ print(5 ^ 3)
 print(~5)
 print(5 << 3)
 print(5 >> 3)
+
+
+print("Operator precedence")
+#Operator precedence is a rule that defines the order in which the operators should be
+
+print((6-4) - 2)
+print(6 * (8-2))
+print(6**7) # 6^7
+print(100 - +2) # +x -x ~x
+print(10 * 2 // 3 % 2) #if they have same precedence level then the will be executed from left to right
+print(10 - 5 + 11 - 2) #Addition and subtraction
+print(8 >> 4 - 2) #<<  >>	Bitwise left and right shifts
+print(10 & 11) #Bitwise AND
+print(10 ^ 11 -2) #Bitwise XOR
+print(10 | 11 -2) #Bitwise OR
+print(5 == 4 + 1) #==  !=  >  >=  <  <=  is  is not  in  not in 	Comparisons, identity, and membership operators	
+print(not 5 == 5) #not 	Logical NOT
+print(1 or 2 and 3) #and
+print(1 and 2 or 3) #or
+
