@@ -48,6 +48,11 @@ print(mylist2)
 mylist1.extend(mylist2)
 print(mylist1)
 
+x = mylist1.count(0)
+print(x)
+
+
+
 
 
 
