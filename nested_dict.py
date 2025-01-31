@@ -41,3 +41,12 @@ myfamily = {
 
 #ACCESS
 print(myfamily["child2"]["name"])
+
+
+
+#loop through nested directories
+for x, obj in myfamily.items():
+  print(x)
+
+  for y in obj:
+    print(y + ':', obj[y]) # also can use use "," instead of "+"
