@@ -104,3 +104,14 @@ car = {
 x = car.setdefault("color", "white")
 
 print(x)
+
+#update()
+car = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+
+car.update({"mj":"white"})
+
+print(car)
