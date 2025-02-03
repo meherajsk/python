@@ -53,5 +53,3 @@ if "model" in thisdict:
   print("yes it is present in thisdict variable")
 
 
-
-

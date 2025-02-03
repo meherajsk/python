@@ -21,5 +21,6 @@ print(thisset)
 
 thisset = {"apple", "banana","cherry"}
 del thisset
-print(thisset)
+print(thisset)#show an error
+
 

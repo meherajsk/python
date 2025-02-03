@@ -8,6 +8,7 @@ print(red)
 fruit = ("apple", "banana", "orange", "rasberry", "mango")
 (green, blue, *black) = fruit #asterisk to access the remaining data
 print(black)
+
 (green, *blue, black) = fruit
 print(green)
 print(blue)
