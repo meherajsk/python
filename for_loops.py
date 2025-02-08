@@ -67,9 +67,10 @@ adj = ["red", "healthy", "big", "tasty"]
 for x in adj:
     for y in fruit:
         print(x, y)
-
     print()
         
 
 
-
+#for loops cannot be empty, but if you for some reason have a for loop with no content, put in the pass statement to avoid getting an error.
+for x in [0, 1, 2]:
+  pass
