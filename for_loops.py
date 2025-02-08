@@ -67,6 +67,7 @@ adj = ["red", "healthy", "big", "tasty"]
 for x in adj:
     for y in fruit:
         print(x, y)
+        
     print()
         
 
