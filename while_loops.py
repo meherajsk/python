@@ -19,6 +19,7 @@ while i < 5:
 
 
 print()
+#With the else statement we can run a block of code once when the condition no longer is true:
 i =1 
 while i < 7:
     print(i)
