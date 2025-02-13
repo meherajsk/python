@@ -9,3 +9,11 @@ print(x(5))
 
 x = lambda m, n : m + n
 print(x("meheraj", "sk"))
+
+
+def myfunc(n):
+  return lambda a : a * n
+
+mydoubler = myfunc(2)
+
+print(mydoubler(11))
