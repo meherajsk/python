@@ -5,4 +5,7 @@ def my_print(message):
 
 my_print("Hello, World!")
 print("Hello, World!", end="     ") #this is the same as the above line
-print("mehraj")
+def new_func():
+    print("mehraj")
+
+new_func()
