@@ -1,11 +1,9 @@
-"""module is a code library"""
+def greeting(name):
+    print("Hello, " + name)
 
-"""def greeting(name):
-    print("hello, " +name)
-"""
-#variables
+# Variables
 person1 = {
     "name": "John",
     "age": 36,
-    "country": "Norway" 
+    "country": "Norway"
 }

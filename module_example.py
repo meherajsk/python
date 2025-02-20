@@ -1,7 +1,8 @@
-import m_module
+#from m_module import *
+import m_module as m
 
-m_module.greeting("Jonathan")
+m.greeting("Jonathan")
 
-#x = m_module.person1["age"]
-#print(x)
+x = m.person1["age"]
+print(x)
 
