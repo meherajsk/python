@@ -122,4 +122,4 @@ print(txt.format(age, name))
 
 print()
 myorder = "I have a {carname}, it is a {model}."
-print(myorder.format(carname = "Ford", model = "Mustang"))
+print(myorder.format(carname = "Ford", model = "Mustang"))Now the file has more content!Now the file has more content!Now the file has more content!Now the file has more content!Now the file has more content!Now the file has more content!Now the file has more content!Now the file has more content!Now the file has more content!Now the file has more content!Now the file has more content!Now the file has more content!Now the file has more content!Now the file has more content!Now the file has more content!Now the file has more content!Now the file has more content!
